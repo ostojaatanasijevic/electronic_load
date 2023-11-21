@@ -1,0 +1,1238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/ostoja/Elektronika/Projekti/electronic_load/electronic_load_module/electronic_load_module.kicad_sch</source>
+    <date>Sun Nov 19 21:46:42 2023</date>
+    <tool>Eeschema 7.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>electronic_load_module.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02db046e-42bc-447d-9441-85d7159d006d</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95de097b-6f8c-43e5-9f2a-2b6968690b2b</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>516d0abb-dd1e-478b-ad06-775ee803ed0a</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59418674-d087-4704-861b-f5c412477094</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57ad5622-076f-4ee6-83d9-50c0ce0a8115</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>220p</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39baf17f-12e0-4664-ab36-ccc9c60118e1</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>220p</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>584937eb-d782-4a0e-a8c8-2f9028910a87</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <fields>
+        <field name="Sim.Enable">0</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sim.Enable" value="0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5233ad1-411a-4bf2-a00f-1851efbccd04</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9d34c5c-e8c3-455b-ba27-f5b01be27df0</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Price">0.015</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Price" value="0.015"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da324052-bb14-4002-b87e-e73210f709d8</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Price">0.015</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Price" value="0.015"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6771747-4f7f-4d37-9e8b-eb26c5236d72</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Price">0.015</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Price" value="0.015"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f04d7bf2-0d55-4dea-81a7-f2130d5a7502</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x05_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Price">0.02</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Pin" description="Generic connector, single row, 01x05, script generated"/>
+      <property name="Price" value="0.02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b550c9ba-3b97-4520-812f-97dbb7c2fe9f</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x05_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Price">0.02</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Pin" description="Generic connector, single row, 01x05, script generated"/>
+      <property name="Price" value="0.02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>613fbe95-6d98-4e1f-a1d7-d44f197ab54e</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5bb00335-ff7f-44b0-a19c-726c488fb6ee</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="Price">0.05</field>
+        <field name="Sim.Device">NPN</field>
+        <field name="Sim.Library">/home/ostoja/spice_models/bjts/BC817-25.lib</field>
+        <field name="Sim.Name">BC817-25</field>
+        <field name="Sim.Params">is=91980a</field>
+        <field name="Sim.Pins">1=B 2=E 3=C</field>
+        <field name="Sim.Type">GUMMELPOON</field>
+      </fields>
+      <libsource lib="SPICE_bjts" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="Sim.Library" value="/home/ostoja/spice_models/bjts/BC817-25.lib"/>
+      <property name="Sim.Name" value="BC817-25"/>
+      <property name="Sim.Device" value="NPN"/>
+      <property name="Sim.Type" value="GUMMELPOON"/>
+      <property name="Sim.Pins" value="1=B 2=E 3=C"/>
+      <property name="Sim.Params" value="is=91980a"/>
+      <property name="Price" value="0.05"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dab9a598-dc6e-412d-9b03-b05f9c00463f</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="Price">0.05</field>
+        <field name="Sim.Device">NPN</field>
+        <field name="Sim.Library">/home/ostoja/spice_models/bjts/BC817-25.lib</field>
+        <field name="Sim.Name">BC817-25</field>
+        <field name="Sim.Params">is=91980a</field>
+        <field name="Sim.Pins">1=B 2=E 3=C</field>
+        <field name="Sim.Type">GUMMELPOON</field>
+      </fields>
+      <libsource lib="SPICE_bjts" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="Sim.Library" value="/home/ostoja/spice_models/bjts/BC817-25.lib"/>
+      <property name="Sim.Name" value="BC817-25"/>
+      <property name="Sim.Device" value="NPN"/>
+      <property name="Sim.Type" value="GUMMELPOON"/>
+      <property name="Sim.Pins" value="1=B 2=E 3=C"/>
+      <property name="Sim.Params" value="is=91980a"/>
+      <property name="Price" value="0.05"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ac538de-29e7-45e0-b4b4-e948940b2c12</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>TIP142</value>
+      <footprint>Package_TO_SOT_THT:TO-247-3_Vertical</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/TIP120-D.PDF</datasheet>
+      <fields>
+        <field name="Price">1.26 </field>
+        <field name="Sim.Device">SUBCKT</field>
+        <field name="Sim.Library">/home/ostoja/KiCad/models/bjt/npn/TIP142.LIB</field>
+        <field name="Sim.Name">tip142</field>
+        <field name="Sim.Pins">1=2 2=1 3=3</field>
+      </fields>
+      <libsource lib="SPICE_bjts" part="TIP142" description="5A Ic, 60V Vce, Silicon Darlington Power NPN Transistor, TO-220"/>
+      <property name="Sim.Library" value="/home/ostoja/KiCad/models/bjt/npn/TIP142.LIB"/>
+      <property name="Sim.Name" value="tip142"/>
+      <property name="Sim.Device" value="SUBCKT"/>
+      <property name="Sim.Pins" value="1=2 2=1 3=3"/>
+      <property name="Price" value="1.26 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="5A Ic, 60V Vce, Silicon Darlington Power NPN Transistor, TO-220"/>
+      <property name="ki_keywords" value="Darlington Power NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10743548-450f-4acc-9249-9a0d91683c74</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>TIP142</value>
+      <footprint>Package_TO_SOT_THT:TO-247-3_Vertical</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/TIP120-D.PDF</datasheet>
+      <fields>
+        <field name="Price">1.26 </field>
+        <field name="Sim.Device">SUBCKT</field>
+        <field name="Sim.Library">/home/ostoja/KiCad/models/bjt/npn/TIP142.LIB</field>
+        <field name="Sim.Name">tip142</field>
+        <field name="Sim.Pins">1=2 2=1 3=3</field>
+      </fields>
+      <libsource lib="SPICE_bjts" part="TIP142" description="5A Ic, 60V Vce, Silicon Darlington Power NPN Transistor, TO-220"/>
+      <property name="Sim.Library" value="/home/ostoja/KiCad/models/bjt/npn/TIP142.LIB"/>
+      <property name="Sim.Name" value="tip142"/>
+      <property name="Sim.Device" value="SUBCKT"/>
+      <property name="Sim.Pins" value="1=2 2=1 3=3"/>
+      <property name="Price" value="1.26 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="5A Ic, 60V Vce, Silicon Darlington Power NPN Transistor, TO-220"/>
+      <property name="ki_keywords" value="Darlington Power NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26faa4f2-55cd-4eb1-b42d-55351db69590</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3102b33b-8d6e-41de-aa75-c7a4072a37c3</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>90k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.352</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.352"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b7239ce-90ef-4f08-9347-2aa1297f3775</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>3.3k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.352</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.352"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50dbe64d-05cf-4fc9-8002-043217e772e0</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>6.6k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.352</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.352"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54a33525-9db9-4ba2-978d-836f6723bd7c</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.352</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.352"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ffa0b0c-20f3-4e4b-9671-ed8381574fe7</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4563edd-abf8-4357-b6a2-68e81ed56fdc</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95e6678e-ff64-456c-a0ca-33fd0d24ffa1</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8d6cedb-0cfa-4f71-94ee-17d5b32ee769</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e244a47d-6ccc-4f11-ae01-96523e279212</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a7d645f-7546-4e39-8e57-e41d06a11a02</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0dcf97bf-2e12-406a-8960-5b2068a37457</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a079f61-6d81-4330-a4c2-0903289afeef</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe2274a7-07c6-46e3-8f8f-3e37ede8a712</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ffe3d259-5798-4969-95b1-197a8a1a994d</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57fbd1a4-5b89-4b4f-b92a-046cd7235f5b</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4cf0856-09b6-4bd7-92be-b034ab3bf6c9</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>0.05</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.352</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.352"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cf9997a-40a7-4620-857e-3c0bd8001bd0</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>0.05</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.352</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.352"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88680a21-4beb-4ef7-82e5-edd3bb8047f4</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d599fd3-bfea-4e9c-81cd-536ad2c918ac</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f5f1c6e-0ef7-46f4-b693-24e4caed270e</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>NCS21804</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/NCS325-D.PDF</datasheet>
+      <fields>
+        <field name="Price">1.91</field>
+        <field name="Sim.Device">SUBCKT</field>
+        <field name="Sim.Library">/home/ostoja/KiCad/models/opamps/NCS21804.lib</field>
+        <field name="Sim.Name">NCS21804</field>
+        <field name="Sim.Pins">1=OUT1 2=IN1- 3=IN1+ 4=VCC 5=IN2+ 6=IN2- 7=OUT2 8=OUT3 9=IN3- 10=IN3+ 11=VEE 12=IN4+ 13=IN4- 14=OUT4</field>
+      </fields>
+      <libsource lib="SPICE_opamps" part="NCS21804" description="Quad operational amplifier, 50uV Offset, 0.25uV/C, 35uA Zero-Drift, SOIC-14"/>
+      <property name="Sim.Library" value="/home/ostoja/KiCad/models/opamps/NCS21804.lib"/>
+      <property name="Sim.Name" value="NCS21804"/>
+      <property name="Sim.Device" value="SUBCKT"/>
+      <property name="Sim.Pins" value="1=OUT1 2=IN1- 3=IN1+ 4=VCC 5=IN2+ 6=IN2- 7=OUT2 8=OUT3 9=IN3- 10=IN3+ 11=VEE 12=IN4+ 13=IN4- 14=OUT4"/>
+      <property name="Price" value="1.91"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Quad operational amplifier, 50uV Offset, 0.25uV/C, 35uA Zero-Drift, SOIC-14"/>
+      <property name="ki_keywords" value="quad opamp low-power"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fcfb5574-afaa-4a13-835b-bd194ed27c3f 9c799540-3fa4-4412-8a20-d7a9413ceb50 2b90bf81-af2b-4260-8dac-dfd5031b5893 faa31f3e-7a4f-49e7-8be3-6d700120bbba 0a01df85-3c7b-4ab8-86a4-7df41dd02b4f</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TLV07</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv172.pdf</datasheet>
+      <fields>
+        <field name="Price">0.324</field>
+        <field name="Sim.Device">SUBCKT</field>
+        <field name="Sim.Library">/home/ostoja/KiCad/models/opamps/TLV07.LIB</field>
+        <field name="Sim.Name">TLV07</field>
+        <field name="Sim.Pins">1=IN+ 2=VEE 3=IN- 4=OUT 5=VCC</field>
+      </fields>
+      <libsource lib="SPICE_opamps" part="TLV07" description="Low-power Operational Amplifier, SOT-353"/>
+      <property name="Sim.Library" value="/home/ostoja/KiCad/models/opamps/TLV07.LIB"/>
+      <property name="Sim.Name" value="TLV07"/>
+      <property name="Sim.Device" value="SUBCKT"/>
+      <property name="Sim.Pins" value="1=IN+ 2=VEE 3=IN- 4=OUT 5=VCC"/>
+      <property name="Price" value="0.324"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Low-power Operational Amplifier, SOT-353"/>
+      <property name="ki_keywords" value="op amp operational amplifier"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad45bfc0-5d85-4a50-8185-77bb24ae8f98</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>SN74LV4052</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd4052b.pdf</datasheet>
+      <fields>
+        <field name="Price">0.277</field>
+        <field name="Sim.Enable">0</field>
+      </fields>
+      <libsource lib="SPICE_Analog_Switch" part="SN74LV4052" description="CMOS double 4-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16"/>
+      <property name="Price" value="0.277"/>
+      <property name="Sim.Enable" value="0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="CMOS double 4-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16"/>
+      <property name="ki_keywords" value="analog switch selector multiplexer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f5bf43d-177a-4102-958f-92ef2db0a7f2</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>SN74LV4052</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd4052b.pdf</datasheet>
+      <fields>
+        <field name="Price">0.277</field>
+        <field name="Sim.Enable">0</field>
+      </fields>
+      <libsource lib="SPICE_Analog_Switch" part="SN74LV4052" description="CMOS double 4-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16"/>
+      <property name="Price" value="0.277"/>
+      <property name="Sim.Enable" value="0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="CMOS double 4-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16"/>
+      <property name="ki_keywords" value="analog switch selector multiplexer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fea5977d-4cac-405e-9b06-5b1267119c40</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>INA180A1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina180.pdf</datasheet>
+      <fields>
+        <field name="Price">0.236</field>
+        <field name="Sim.Device">SUBCKT</field>
+        <field name="Sim.Library">/home/ostoja/KiCad/models/current_amp/ina180a1.lib</field>
+        <field name="Sim.Name">INA180A1</field>
+        <field name="Sim.Pins">1=OUT 2=GND 3=INP 4=INN 5=VCC</field>
+      </fields>
+      <libsource lib="SPICE_current_amp" part="INA180A1" description="Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 20 V/V, SOT-23-5"/>
+      <property name="Sim.Library" value="/home/ostoja/KiCad/models/current_amp/ina180a1.lib"/>
+      <property name="Sim.Name" value="INA180A1"/>
+      <property name="Sim.Device" value="SUBCKT"/>
+      <property name="Sim.Pins" value="1=OUT 2=GND 3=INP 4=INN 5=VCC"/>
+      <property name="Price" value="0.236"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 20 V/V, SOT-23-5"/>
+      <property name="ki_keywords" value="current monitor shunt sensor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cf92730-5931-4e0e-a985-a55288127bc2</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>INA180A1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina180.pdf</datasheet>
+      <fields>
+        <field name="Price">0.236</field>
+        <field name="Sim.Device">SUBCKT</field>
+        <field name="Sim.Library">/home/ostoja/KiCad/models/current_amp/ina180a1.lib</field>
+        <field name="Sim.Name">INA180A1</field>
+        <field name="Sim.Pins">1=OUT 2=GND 3=INP 4=INN 5=VCC</field>
+      </fields>
+      <libsource lib="SPICE_current_amp" part="INA180A1" description="Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 20 V/V, SOT-23-5"/>
+      <property name="Sim.Library" value="/home/ostoja/KiCad/models/current_amp/ina180a1.lib"/>
+      <property name="Sim.Name" value="INA180A1"/>
+      <property name="Sim.Device" value="SUBCKT"/>
+      <property name="Sim.Pins" value="1=OUT 2=GND 3=INP 4=INN 5=VCC"/>
+      <property name="Price" value="0.236"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electronic_load_module.kicad_sch"/>
+      <property name="ki_description" value="Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 20 V/V, SOT-23-5"/>
+      <property name="ki_keywords" value="current monitor shunt sensor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b4b88c1-07e5-4296-acd0-9b7c5e9c9054</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x03_Pin">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Pin">
+      <description>Generic connector, single row, 01x05, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SPICE_Analog_Switch" part="SN74LV4052">
+      <description>CMOS double 4-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16</description>
+      <docs>http://www.ti.com/lit/ds/symlink/cd4052b.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>DIP*W7.62*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>SO*5.3x10.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LV4052</field>
+        <field name="Footprint">Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/cd4052b.pdf</field>
+        <field name="Price">0.277</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Y0" type="bidirectional"/>
+        <pin num="2" name="Y2" type="bidirectional"/>
+        <pin num="3" name="Y" type="bidirectional"/>
+        <pin num="4" name="Y3" type="bidirectional"/>
+        <pin num="5" name="Y1" type="bidirectional"/>
+        <pin num="6" name="INH" type="input"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="B" type="input"/>
+        <pin num="10" name="A" type="input"/>
+        <pin num="11" name="X3" type="bidirectional"/>
+        <pin num="12" name="X0" type="bidirectional"/>
+        <pin num="13" name="X" type="bidirectional"/>
+        <pin num="14" name="X1" type="bidirectional"/>
+        <pin num="15" name="X2" type="bidirectional"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SPICE_bjts" part="BC817">
+      <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC817</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC818-D.pdf</field>
+        <field name="Sim.Library">/home/ostoja/spice_models/bjts/BC817-25.lib</field>
+        <field name="Sim.Name">BC817-25</field>
+        <field name="Sim.Device">NPN</field>
+        <field name="Sim.Type">GUMMELPOON</field>
+        <field name="Sim.Pins">1=B 2=E 3=C</field>
+        <field name="Sim.Params">is=91980a</field>
+        <field name="Price">0.05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SPICE_bjts" part="TIP142">
+      <description>5A Ic, 60V Vce, Silicon Darlington Power NPN Transistor, TO-220</description>
+      <docs>https://www.onsemi.com/pub/Collateral/TIP120-D.PDF</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">TIP142</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-247-3_Vertical</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/TIP120-D.PDF</field>
+        <field name="Sim.Library">/home/ostoja/KiCad/models/bjt/npn/TIP142.LIB</field>
+        <field name="Sim.Name">tip142</field>
+        <field name="Sim.Device">SUBCKT</field>
+        <field name="Sim.Pins">1=2 2=1 3=3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SPICE_current_amp" part="INA180A1">
+      <description>Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 20 V/V, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ina180.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA180A1</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ina180.pdf</field>
+        <field name="Sim.Library">/home/ostoja/KiCad/models/current_amp/ina180a1.lib</field>
+        <field name="Sim.Name">INA180A1</field>
+        <field name="Sim.Device">SUBCKT</field>
+        <field name="Sim.Pins">1=OUT 2=GND 3=INP 4=INN 5=VCC</field>
+        <field name="Price">0.236</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SPICE_opamps" part="NCS21804">
+      <description>Quad operational amplifier, 50uV Offset, 0.25uV/C, 35uA Zero-Drift, SOIC-14</description>
+      <docs>http://www.onsemi.com/pub/Collateral/NCS325-D.PDF</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCS21804</field>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">http://www.onsemi.com/pub/Collateral/NCS325-D.PDF</field>
+        <field name="Sim.Library">/home/ostoja/KiCad/models/opamps/NCS21804.lib</field>
+        <field name="Sim.Name">NCS21804</field>
+        <field name="Sim.Device">SUBCKT</field>
+        <field name="Sim.Pins">1=OUT1 2=IN1- 3=IN1+ 4=VCC 5=IN2+ 6=IN2- 7=OUT2 8=OUT3 9=IN3- 10=IN3+ 11=VEE 12=IN4+ 13=IN4- 14=OUT4</field>
+        <field name="Price">1.91</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="SPICE_opamps" part="TLV07">
+      <description>Low-power Operational Amplifier, SOT-353</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlv172.pdf</docs>
+      <footprints>
+        <fp>SOT*353*SC*70*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV07</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv172.pdf</field>
+        <field name="Sim.Library">/home/ostoja/KiCad/models/opamps/TLV07.LIB</field>
+        <field name="Sim.Name">TLV07</field>
+        <field name="Sim.Device">SUBCKT</field>
+        <field name="Sim.Pins">1=IN+ 2=VEE 3=IN- 4=OUT 5=VCC</field>
+        <field name="Price">0.324</field>
+      </fields>
+      <pins>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Simulation_SPICE" part="BSOURCE">
+      <description>Arbitrary behavioral voltage or current source</description>
+      <docs>https://ngspice.sourceforge.io/docs.html</docs>
+      <fields>
+        <field name="Reference">B</field>
+        <field name="Value">BSOURCE</field>
+        <field name="Datasheet">https://ngspice.sourceforge.io/docs.html</field>
+        <field name="Sim.Device">V</field>
+        <field name="Sim.Type">=</field>
+        <field name="Sim.Pins">1=+ 2=-</field>
+        <field name="Sim.Params">v=1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="N+" type="passive"/>
+        <pin num="2" name="N-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Simulation_SPICE" part="VSIN">
+      <description>Voltage source, sinusoidal</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">V</field>
+        <field name="Value">VSIN</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Pins">1=+ 2=-</field>
+        <field name="Sim.Params">dc=0 ampl=1 f=1k ac=1</field>
+        <field name="Sim.Type">SIN</field>
+        <field name="Sim.Device">V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="SPICE_Analog_Switch">
+      <uri>/home/ostoja/KiCad/models/analog_switches/Analog_Switch.kicad_sym</uri>
+    </library>
+    <library logical="SPICE_bjts">
+      <uri>/home/ostoja/KiCad/models/bjt/npn/Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="SPICE_current_amp">
+      <uri>/home/ostoja/KiCad/models/current_amp/Amplifier_Current.kicad_sym</uri>
+    </library>
+    <library logical="SPICE_opamps">
+      <uri>/home/ostoja/KiCad/models/opamps/Amplifier_Operational.kicad_sym</uri>
+    </library>
+    <library logical="Simulation_SPICE">
+      <uri>/usr/share/kicad/symbols//Simulation_SPICE.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="0">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J10" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U5" pin="6" pinfunction="INH" pintype="input"/>
+      <node ref="U5" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="6" pinfunction="INH" pintype="input"/>
+      <node ref="U6" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="4" pinfunction="-" pintype="input"/>
+      <node ref="U8" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="4" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="2" name="5V">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="V+" pintype="power_in"/>
+      <node ref="U5" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U6" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U7" pin="5" pinfunction="V+" pintype="power_in"/>
+      <node ref="U8" pin="5" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="3" name="COMMON_MUX_A">
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U5" pin="10" pinfunction="A" pintype="input"/>
+      <node ref="U6" pin="10" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="4" name="COMMON_MUX_B">
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U5" pin="9" pinfunction="B" pintype="input"/>
+      <node ref="U6" pin="9" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="6" name="DAC">
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pintype="output"/>
+      <node ref="U6" pin="12" pinfunction="X0" pintype="bidirectional"/>
+      <node ref="U6" pin="2" pinfunction="Y2" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="DAC_2">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pintype="output"/>
+      <node ref="U5" pin="12" pinfunction="X0" pintype="bidirectional"/>
+      <node ref="U5" pin="2" pinfunction="Y2" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="DAC_from_board">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="DAC_from_board_2">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="DIVIDER">
+      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pintype="output"/>
+      <node ref="U5" pin="15" pinfunction="X2" pintype="bidirectional"/>
+      <node ref="U6" pin="15" pinfunction="X2" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="DIVIDER_R">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="12" name="ENABLE">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="ENABLE_2">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="MIXER">
+      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pintype="output"/>
+    </net>
+    <net code="16" name="Net-(C9-Pad2)">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="output"/>
+    </net>
+    <net code="17" name="Net-(J2-Pin_2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U5" pin="11" pinfunction="X3" pintype="bidirectional"/>
+      <node ref="U5" pin="14" pinfunction="X1" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="Net-(J11-Pin_2)">
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U6" pin="11" pinfunction="X3" pintype="bidirectional"/>
+      <node ref="U6" pin="14" pinfunction="X1" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="Net-(Q1-B)">
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(Q1-C)">
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(Q2-B)">
+      <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(Q2-C)">
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(Q4-E)">
+      <node ref="Q4" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="24" name="Net-(Q5-E)">
+      <node ref="Q5" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="25" name="Net-(U1A-+)">
+      <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U6" pin="13" pinfunction="X" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="Net-(U1A--)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
+      <node ref="U6" pin="3" pinfunction="Y" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="Net-(U1B-+)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(U1B--)">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="29" name="Net-(U1C-+)">
+      <node ref="U1" pin="10" pinfunction="+" pintype="input"/>
+      <node ref="U5" pin="13" pinfunction="X" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="Net-(U1C--)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="-" pintype="input"/>
+      <node ref="U5" pin="3" pinfunction="Y" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="Net-(U1D-+)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(U1D--)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(U2--)">
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="34" name="SHUNT">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="Y0" pintype="bidirectional"/>
+      <node ref="U6" pin="4" pinfunction="Y3" pintype="bidirectional"/>
+      <node ref="U6" pin="5" pinfunction="Y1" pintype="bidirectional"/>
+      <node ref="U8" pin="1" pintype="output"/>
+    </net>
+    <net code="35" name="SHUNT_2">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="Y0" pintype="bidirectional"/>
+      <node ref="U5" pin="4" pinfunction="Y3" pintype="bidirectional"/>
+      <node ref="U5" pin="5" pinfunction="Y1" pintype="bidirectional"/>
+      <node ref="U7" pin="1" pintype="output"/>
+    </net>
+    <net code="36" name="input">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="37" name="input_10">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="input_1000">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="input_sense">
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
