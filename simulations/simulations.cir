@@ -1,0 +1,20 @@
+.title KiCad schematic
+.include "/home/ostoja/KiCad/models/bjt/npn/TIP142.LIB"
+.include "/home/ostoja/KiCad/models/current_amp/ina180a1.lib"
+.include "/home/ostoja/KiCad/models/opamps/NCS21804.lib"
+.tran 10n 10m
+R1 SHUNT_2 Net-_U1D--_ 10k
+C1 5V 0 100n
+C2 Net-_U1D--_ Net-_C2-Pad2_ 220p
+XU1 unconnected-_U1-Pad1_ unconnected-_U1A---Pad2_ unconnected-_U1A-+-Pad3_ 5V unconnected-_U1B---Pad6_ unconnected-_U1B-+-Pad5_ unconnected-_U1-Pad7_ 0 unconnected-_U1-Pad8_ unconnected-_U1C---Pad9_ unconnected-_U1C-+-Pad10_ Net-_U1D--_ VCTR Net-_C2-Pad2_ NCS21804
+C3 5V 0 100n
+V4 VCTR 0 DC 0 SIN( 0 1 1k 0 0 0 1 ) AC 1 
+R3 Net-_Q1-E_ 0 0.05
+XU2 Net-_Q1-E_ 0 5V 0 SHUNT_2 INA180A1
+R2 Net-_C2-Pad2_ Net-_Q1-B_ 0
+XQ1 input Net-_Q1-B_ Net-_Q1-E_ tip142
+B1 CORRECT 0 V=V(VCTR)*V(DIVIDER)
+V1 input 0 DC 25 SIN( 25 1 10k 0 0 0 1 ) AC 1 
+V2 5V 0 DC 5 SIN( 5 0 10k 0 0 0 1 ) AC 1 
+V3 12V 0 DC 12 SIN( 12 0 10k 0 0 0 1 ) AC 1 
+.end
